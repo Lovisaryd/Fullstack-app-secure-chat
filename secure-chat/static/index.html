@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles.css">
+        <script type="module" src="./script.js" defer></script>
+        <title>Secure chat</title>
+    </head>
+    <body>
+        <main class="float-container">
+            <!---vänster kolumn-->
+        <div class="float-left">
+        <div class="channel-menu">
+                <h3>Channels</h3>
+                <button id="addChannel">+</button>
+            </div>
+            <!---kanaler-->
+            <ul class="channels">   
+            </ul>
+        </div>
+            <!----höger kolumn-->
+        <div class="float-right">
+            
+        <!---meddelande-->
+            <ul class="messageList"></ul>
+        </div>
+        
+        <!---skicka meddelande-->
+            <div id="message-form">
+            <textarea type="text" id="message"></textarea>
+            <button id="sendMessage">Send</button>
+            </div>
+            
+            </div>
+        <!---overlay-->
+        
+         
+     <div class="fade-background">
+        
+        <div class="create-channel">
+           <button id="close">X</button>
+            <h3 id="header">Create channel</h3>
+            
+            <h5 id="header2">Channel name</h5>
+            <input type="text" id="newChannel" placeholder="New-channel">
+            <br>
+            <br>
+            <br>
+            <label for ="enabled" id="label">Private channel</label>
+            <input type="checkbox" id="privateCheck" class="toggle" name="enabled">
+            <button id="submitChannel">Create Channel</button>
+    </div>
+        </div>
+        <div id="log-in">
+            <label for="username">Username</label>
+            <input type="text" placeholder="Username" id="username">
+    
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" id="password">
+    
+            <button id="login">Sign in</button>
+            <button id="register">Sign up</button>
+        </div>
+        <div id="logged-in"></div>
+        <div id="log-out"></div>
+    
+        </main>
+    </body>
+</html>

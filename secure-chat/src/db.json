@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Lovisa Ryd",
+      "password": "$2b$10$ZihPmXeaT.o/SY4TmMqMeuLI.ifl5PR5twbwgvnYo5QrdyIQkbvWa"
+    },
+    {
+      "id": 3,
+      "name": "lovisphatt",
+      "password": "$2b$10$kmTg98Vq/3jQ3FxYRvbrHOr.HDCVW0t8T8VlYEKcIJPM6iWRWWxr."
+    },
+    {
+      "id": 4,
+      "name": "Milk",
+      "password": "$2b$10$NzUWyV/K26wQ8G/Gadv5yuiSyGkKu8.QlXZYF.adhl0eMwLUIcuCm"
+    }
+  ],
+  "channels": [
+    {
+      "id": 1,
+      "status": "public",
+      "title": "Welcome!",
+      "messages": [
+        {
+          "sentBy": "lovisphatt",
+          "time": "Wednesday 21:59",
+          "message": "Welcome to secure-chat! Make an account to start chatting! Some channels are private and you won't be able to read them unless you're logged in. "
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "status": "private",
+      "title": "Private",
+      "messages": [
+        {
+          "order": 1,
+          "sentBy": "lovisphatt",
+          "time": "Saturday 13:52",
+          "message": "Inget speciellt här."
+        },
+        {
+          "order": 2,
+          "sentBy": "Milk",
+          "time": "Saturday 13:54",
+          "message": "Försökte göra ta bort meddelanden men är helt död i skallen så får bli så här istället."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "status": "public",
+      "title": "Public",
+      "messages": [
+        {
+          "order": 1,
+          "sentBy": "lovisphatt",
+          "time": "Thursday 17:56",
+          "message": "Vad händer?"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "AI talk",
+      "status": "private",
+      "messages": [
+        {
+          "order": 1,
+          "sentBy": "lovisphatt",
+          "time": "Saturday 11:08",
+          "message": "Gjorde nyss en cool robot."
+        },
+        {
+          "order": 2,
+          "sentBy": "Milk",
+          "time": "Saturday 13:40",
+          "message": "Vad kan den göra?"
+        }
+      ]
+    }
+  ]
+}
